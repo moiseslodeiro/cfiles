@@ -31,6 +31,9 @@ Arch Linux users can use the [AUR](https://aur.archlinux.org/packages/cfiles) pa
 #### macOS
 macOS users can use [brew](https://github.com/mananapr/homebrew-cfiles)
 
+#### Ubuntu
+Go to the `cfiles` folder and make sure you have the updated repositories. Then run the following command:
+`sudo apt install libncursesw5-dev libncurses5-dev && make && make install`
 
 #### Others
 To compile, run
